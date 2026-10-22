@@ -1,6 +1,0 @@
-{
-  "name": "Revuelt Core",
-  "description": "Revuelt Core is a design and dev studio that finishes projects. We create design and digital products by combining creativity, technology, and experience.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
