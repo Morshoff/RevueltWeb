@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>Revuelt Core</title>
+    <meta
+      name="description"
+      content="Revuelt Core is a design and dev studio that finishes projects. We create design and digital products by combining creativity, technology, and experience."
+    />
+    <meta property="og:title" content="Revuelt Core" />
+    <meta
+      property="og:description"
+      content="Revuelt Core is a design and dev studio that finishes projects. We create design and digital products by combining creativity, technology, and experience."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- SF Pro Display Font -->
+    <link
+      href="https://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome 6.5.2 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="/mobile.css" />
+  </head>
+  <body>
+    <!-- Full-viewport Background Video -->
+    <div class="bg">
+      <video class="bg-video" autoplay muted loop playsinline webkit-playsinline>
+        <source
+          src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+
+    <!-- Mobile Viewport Container -->
+    <div class="mobile-page">
+      <!-- Top Bar -->
+      <header class="mobile-header">
+        <div class="studio-status">
+          <span class="status-dot"></span>
+          <span class="status-text">Revuelt Studio</span>
+        </div>
+        <a
+          href="https://t.me/revueltcontact"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="telegram-icon-btn"
+          aria-label="Contact via Telegram"
+        >
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+      </header>
+
+      <!-- Center Hero -->
+      <main class="mobile-hero">
+        <h1 class="mobile-headline">
+          <span>Revuelt Core</span>
+        </h1>
+
+        <p class="mobile-subhead">
+          Revuelt Core is a design and dev studio that finishes projects. We create design and digital products by combining creativity, technology, and experience.
+        </p>
+
+        <a
+          href="https://t.me/revueltcontact"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mobile-cta-btn"
+        >
+          <span>Contact</span>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </main>
+
+      <!-- Bottom Services -->
+      <footer class="mobile-services">
+        <!-- Segmented Tab Switcher -->
+        <div class="services-tabs" role="tablist" aria-label="Capabilities">
+          <button
+            class="tab-btn active"
+            id="tab-dev"
+            role="tab"
+            aria-selected="true"
+            aria-controls="panel-dev"
+          >
+            Development <span class="tab-badge">3</span>
+          </button>
+          <button
+            class="tab-btn"
+            id="tab-design"
+            role="tab"
+            aria-selected="false"
+            aria-controls="panel-design"
+          >
+            Design <span class="tab-badge">6</span>
+          </button>
+        </div>
+
+        <!-- Development Tab Panel -->
+        <div class="tab-panel active" id="panel-dev" role="tabpanel" aria-labelledby="tab-dev">
+          <ol class="mobile-service-list">
+            <li>
+              <span class="service-idx">01</span>
+              <span class="service-name">Application</span>
+            </li>
+            <li>
+              <span class="service-idx">02</span>
+              <span class="service-name">Website</span>
+            </li>
+            <li>
+              <span class="service-idx">03</span>
+              <span class="service-name">Backend</span>
+            </li>
+          </ol>
+        </div>
+
+        <!-- Design Tab Panel -->
+        <div class="tab-panel" id="panel-design" role="tabpanel" aria-labelledby="tab-design">
+          <ol class="mobile-service-list mobile-service-grid">
+            <li>
+              <span class="service-idx">01</span>
+              <span class="service-name">2D Motion</span>
+            </li>
+            <li>
+              <span class="service-idx">02</span>
+              <span class="service-name">3D Motion</span>
+            </li>
+            <li>
+              <span class="service-idx">03</span>
+              <span class="service-name">Ui/Ux Design</span>
+            </li>
+            <li>
+              <span class="service-idx">04</span>
+              <span class="service-name">Logo Design</span>
+            </li>
+            <li>
+              <span class="service-idx">05</span>
+              <span class="service-name">Branding</span>
+            </li>
+            <li>
+              <span class="service-idx">06</span>
+              <span class="service-name">Graphic Design</span>
+            </li>
+          </ol>
+        </div>
+
+        <a href="/?desktop=1" class="desktop-switch-link">Desktop version</a>
+      </footer>
+    </div>
+
+    <script>
+      // Tabs interaction
+      const tabDev = document.getElementById('tab-dev');
+      const tabDesign = document.getElementById('tab-design');
+      const panelDev = document.getElementById('panel-dev');
+      const panelDesign = document.getElementById('panel-design');
+
+      if (tabDev && tabDesign && panelDev && panelDesign) {
+        tabDev.addEventListener('click', () => {
+          tabDev.classList.add('active');
+          tabDev.setAttribute('aria-selected', 'true');
+          tabDesign.classList.remove('active');
+          tabDesign.setAttribute('aria-selected', 'false');
+
+          panelDev.classList.add('active');
+          panelDesign.classList.remove('active');
+        });
+
+        tabDesign.addEventListener('click', () => {
+          tabDesign.classList.add('active');
+          tabDesign.setAttribute('aria-selected', 'true');
+          tabDev.classList.remove('active');
+          tabDev.setAttribute('aria-selected', 'false');
+
+          panelDesign.classList.add('active');
+          panelDev.classList.remove('active');
+        });
+      }
+
+      // Smooth video playback
+      const video = document.querySelector('.bg-video');
+      if (video) {
+        video.muted = true;
+        const playPromise = video.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(() => {});
+        }
+      }
+    </script>
+  </body>
+</html>
